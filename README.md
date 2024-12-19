@@ -1,5 +1,4 @@
-# Enhanced Strategic Decision-Making through Customer Segmentation and Customer Churn Prediction:
-## A Data-Driven Approach to Dynamic Market Positioning with Big Data Technologies
+# Enhanced Strategic Decision-Making through Customer Segmentation and Customer Churn Prediction with PySpark
 
 ## Overview
 A practical implementation of big data technologies and frameworks.
