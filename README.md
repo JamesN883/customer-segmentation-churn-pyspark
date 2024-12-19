@@ -1,4 +1,4 @@
-# Enhanced Customer Segmentation through Predictive Analytics: A Big Data Approach for Dynamic Market Positioning
+# Enhanced Strategic Decision-Making through Customer Segmentation and Customer Churn Prediction: A Data-Driven Approach to Dynamic Market Positioning with Big Data Technologies
 
 ## Overview
 A practical implementation of big data technologies and frameworks.
