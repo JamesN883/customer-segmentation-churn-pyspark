@@ -6,10 +6,14 @@ This project explores the deployment in handling large-scale analytical workflow
 Analytics demonstrated through a customer segmentation and churn prediction study case.
 
 ## Data
-Sources: Online Retail (Chen, 2015)
-- From UC Irvine Machine Learning Repository
+Sources: Online Retail (Chen, 2015) from UC Irvine Machine Learning Repository
 
-Metadata:
-- Variables: 8
+Description:
+- This dataset tracks all transactions made between December 1st, 2010, and December 9th, 2011, for a UK-based online retailer specializing in unique, all-occasion gifts. The company primarily caters to wholesale customers.
 - Instances: 541909
-- Description: This dataset tracks all transactions made between December 1st, 2010, and December 9th, 2011, for a UK-based online retailer specializing in unique, all-occasion gifts. The company primarily caters to wholesale customers.
+- Variables: 8
+
+## Approach
+- RFM analysis
+- Customer segmentation: K-means clustering
+- CHurn prediction: random forest and gradient boosting trees
