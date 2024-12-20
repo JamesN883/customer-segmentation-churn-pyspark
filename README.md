@@ -1,19 +1,15 @@
 # Enhanced Strategic Decision-Making through Customer Segmentation and Customer Churn Prediction with PySpark
 
 ## Overview
-A practical implementation of big data technologies and frameworks.
-This project explores the deployment of PySpark in handling large-scale analytical workflows and incorporates machine learning models for actionable insights.
-Analytics demonstrated through a customer segmentation and churn study case.
+A practical implementation of PySpark.
+This project explores the deployment in handling large-scale analytical workflows and incorporates machine learning models for actionable insights.
+Analytics demonstrated through a customer segmentation and churn prediction study case.
 
 ## Data
-Sources:
+Sources: Online Retail (Chen, 2015)
+- From UC Irvine Machine Learning Repository
 
-- [src1]()
-- [src2]()
-
-The datasets contain the transactional records for a UK-based and registered non-store online retail.
-They are chosen for their extensive customer interaction data and high volume, allowing for effective demonstration of big data analytics.
-
-## Core Implementation
-
-- abc
+Metadata:
+- Variables: 8
+- Instances: 541909
+- Description: This dataset tracks all transactions made between December 1st, 2010, and December 9th, 2011, for a UK-based online retailer specializing in unique, all-occasion gifts. The company primarily caters to wholesale customers.
