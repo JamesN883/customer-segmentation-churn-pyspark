@@ -13,7 +13,7 @@ The aim is to support **data-driven marketing** and **customer retention strateg
 - 541,909 rows × 8 variables  
 - Focuses on wholesale customers with behavior-based signals
 
-## 🔧 Workflow
+## ⚙️ Workflow
 1. **Data Preprocessing & Cleaning**
 2. **Feature Engineering:**
    - Derivation of RFM (Recency, Frequency, Monetary) metrics
