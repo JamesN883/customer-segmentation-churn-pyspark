@@ -1,29 +1,43 @@
-# Enhanced Strategic Decision-Making through Customer Segmentation and Customer Churn Prediction with PySpark
+# Customer Segmentation and Churn Prediction with PySpark
 
-## Overview
-A practical implementation of PySpark.
-This project explores the deployment in handling large-scale analytical workflows and incorporates machine learning models for actionable insights.
-Analytics demonstrated through a customer segmentation and churn prediction study case.
+## 📌 Overview
+This project showcases the use of **Apache Spark (PySpark)** for scalable customer analytics. It implements a full pipeline for:
+- 📈 **Customer segmentation** using RFM metrics and K-Means clustering
+- 🔍 **Churn prediction** using Random Forest and Gradient Boosting Trees
+The aim is to support **data-driven marketing** and **customer retention strategies** at scale.
 
-## Data
-Source:
-- Online Retail (Chen, 2015) from UC Irvine Machine Learning Repository.
+## 🗂️ Dataset
+**Source**: [Online Retail (Chen, 2015)](https://archive.ics.uci.edu/ml/datasets/Online+Retail)  
+**Description**:  
+- Transactional data from a UK-based online retailer (Dec 2010 – Dec 2011)  
+- 541,909 rows × 8 variables  
+- Focuses on wholesale customers with behavior-based signals
 
-Description:
-- This dataset tracks all transactions made between December 1st, 2010, and December 9th, 2011, for a UK-based online retailer specializing in unique, all-occasion gifts. The company primarily caters to wholesale customers.
-- Instances: 541909
-- Variables: 8
+## 🔧 Workflow
+1. **Data Preprocessing & Cleaning**
+2. **Feature Engineering:**
+   - Derivation of RFM (Recency, Frequency, Monetary) metrics
+3. **Customer Segmentation:**
+   - K-Means Clustering with WCSS and Silhouette Score optimization
+4. **Churn Prediction:**
+   - Random Forest and Gradient Boosting classifiers
+   - Includes hyperparameter tuning and cross-validation
 
-## Approach
-- RFM analysis
-- Customer segmentation: K-means clustering
-- Churn prediction: random forest and gradient-boosting trees
+## 🛠️ Tools & Technologies
+- Apache Spark (PySpark)
+- MLlib (for machine learning)
+- Google Colab (for orchestration and analysis)
 
-## Remark and Future Work
-The RFM metric is a widely recognized marketing approach for customer segmentation, offering significant benefits when applied alongside k-means clustering.
-By integrating PySpark, the handling of large-scale data has been streamlined, leveraging fault tolerance and parallel computation to enhance efficiency.
+## 📊 Results
+- Achieved **98% classification accuracy** with high AUC ≈ 0.997
+- Effective segmentation of customer groups for targeted strategies
+- Demonstrated end-to-end scalable modeling on semi-large datasets
 
-However, certain challenges were encountered.
-Specifically, the training of Random Forest and Gradient Boosting Tree models proved time-intensive, taking approximately four working hours.
-To mitigate this limitation, future work could involve deploying HDFS to enable distributed storage and computation.
-By utilizing multiple nodes in a cluster, this approach can significantly reduce processing times and optimize resource utilization.
+## ⚠️ Challenges
+- Long training time (~4 hours) for ensemble models in PySpark on a single machine
+- Lack of distributed infrastructure limited speed and experimentation
+
+## 🔭 Future Work
+- ⚙️ **Distributed Training** using HDFS and Spark clusters to improve scalability
+- 🔄 **Real-Time Prediction** via streaming pipelines for up-to-date churn detection
+- 🧩 **Feature Expansion** to include customer demographics, browsing logs, and interaction metadata
